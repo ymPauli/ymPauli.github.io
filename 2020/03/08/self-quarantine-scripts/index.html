@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Muse","version":"7.7.1","exturl":false,"sidebar":{"position":"right","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="原视频由ELe实验室制作并在b站发布，已获得授权进行英译并做一定修改，本文为视频翻译文稿，版权归原作者所有。 放弃表达就只可能被代表。 英译视频地址： bilibili youtube   In this video, I’m sharing a simulation program created by a Chinese programmer explaining why self-quara">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Authorized Translation&#x2F;授权英译 | Simulation program shows you why you should still keep quarantine yourself at home (Scripts)">
+<meta property="og:url" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/index.html">
+<meta property="og:site_name" content="ALL UNDISCOVERED">
+<meta property="og:description" content="原视频由ELe实验室制作并在b站发布，已获得授权进行英译并做一定修改，本文为视频翻译文稿，版权归原作者所有。 放弃表达就只可能被代表。 英译视频地址： bilibili youtube   In this video, I’m sharing a simulation program created by a Chinese programmer explaining why self-quara">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-01.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-02.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-03.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-04.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-05.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-06.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-07.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-08.png">
+<meta property="article:published_time" content="2020-03-08T15:39:30.000Z">
+<meta property="article:modified_time" content="2020-03-19T01:30:07.851Z">
+<meta property="article:author" content="Ms Pauli">
+<meta property="article:tag" content="Translation">
+<meta property="article:tag" content="COVID-19">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2020/03/08/self-quarantine-scripts/quarantine-01.png">
+
+<link rel="canonical" href="http://yoursite.com/2020/03/08/self-quarantine-scripts/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>Authorized Translation/授权英译 | Simulation program shows you why you should still keep quarantine yourself at home (Scripts) | ALL UNDISCOVERED</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="ALL UNDISCOVERED" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">ALL UNDISCOVERED</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">I am here, somewhere</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/08/self-quarantine-scripts/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/pauli.JPG">
+      <meta itemprop="name" content="Ms Pauli">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ALL UNDISCOVERED">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Authorized Translation/授权英译 | Simulation program shows you why you should still keep quarantine yourself at home (Scripts)
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-03-08 08:39:30" itemprop="dateCreated datePublished" datetime="2020-03-08T08:39:30-07:00">2020-03-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-03-18 18:30:07" itemprop="dateModified" datetime="2020-03-18T18:30:07-07:00">2020-03-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Translation/" itemprop="url" rel="index">
+                    <span itemprop="name">Translation</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>原视频由ELe实验室制作并在b站发布，已获得授权进行英译并做一定修改，本文为视频翻译文稿，版权归原作者所有。 放弃表达就只可能被代表。</p>
+<h4 id="英译视频地址："><a href="#英译视频地址：" class="headerlink" title="英译视频地址："></a>英译视频地址：</h4><ul>
+<li><a href="https://www.bilibili.com/video/av94496360" target="_blank" rel="noopener">bilibili</a></li>
+<li><a href="https://www.youtube.com/watch?v=rZ5gAyFlsXk" target="_blank" rel="noopener">youtube</a></li>
+</ul>
+<hr>
+<p>In this video, I’m sharing <a href="https://www.bilibili.com/video/av86478875?from=search&seid=1416731503425008221" target="_blank" rel="noopener">a simulation program created by a Chinese programmer</a> explaining why self-quarantine is crucial in the fight against COVID-19, which is spreading beyond China and across the world right now. To me, it provides a straightforward and intuitive explanation on the situation we are in right now. So I reached out to the author, and he kindly gave me the permission to translate it into English. I’ve also added some information to it. Hope this could also help you understand more about the outbreak that is dominating all news headlines today.</p>
+<p>You could also check the description box of this video (check the reference of this article) if you want to learn more about this epidemic. </p>
+<hr>
+<p>The video I’m about to share is published online on 02 Feb. By then, we had been fighting against coronavirus for at least three weeks – that was since the Chinese state broadcaster CCTV first reported about the outbreak on Jan. 12. <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia" target="_blank" rel="noopener">By the time I begin to make this video, March 06, the cumulative number of infections in China reached 80813, and 3073 out of them died. We still have 22263 patients diagnosed, and 5489 out of them are seriously ill. And there are still 502 suspected cases</a>. </p>
+<p>And apart from China, <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia" target="_blank" rel="noopener">411 died of coronavirus with 21104 cases confirmed.</a></p>
+<p>So this is all about the background. Let’s see what this video could tell us.</p>
+<hr>
+<p>You may have already heard from Internet that it’s still not recommended to leave your home (for non-critical issues) now. We’re still at great risk from coronavirus. But there’re always some people who refuse to understand this situation. </p>
+<p>So I spend the whole night writing a simplified epidemic spread simulation program. If text alone cannot convince you of the importance of staying at home, then just let me visualize it for you with this simulation program.</p>
+<p>I’m using JAVA, a representative object-oriented language, for the simulation. I’m not introducing here a lot of mathematical model (that could simulate the spread process accurately and precisely) because I want to focus on explaining the basic idea in a timely fashion. I’ll describe most of the event based on a popular model, <a href="https://en.wikipedia.org/wiki/Normal_distribution" target="_blank" rel="noopener">Normal Distribution (Gaussian Distribution)</a> (which is “often used in the natural and social sciences to represent real-valued random variables whose distributions are not known”. ) </p>
+<p>For example, in my model, I simulate both the population distribution and mobility intention of each person with normal distribution. And I’ve declared the parameter, the transmission rate of the virus, as constant. It’s a simple idealized model, but it doesn’t affect my explanation of the basic idea about transmission and the key of controlling it.</p>
+<p>Here we get some variables used to build the simulation model. At the very beginning, I set the initial infections in a city as 50. Since we may not have any quarantine zone in the hospital at first, I set hospital beds as zero. People are living their daily lives uninterruptedly, so I set the average mobility intention as high as 0.99.</p>
+<p>And this is how things would go.<br><img src="quarantine-01.png" alt="distribution of the virus"></p>
+<p>If everyone could choose to stay at home, which means average mobility intention comes down to -0.99.</p>
+<p>The thing would be like this.<br><img src="quarantine-02.png" alt="distribution of the virus"><br>The virus would still spread gradually.</p>
+<p>So, we now need quarantine zones in hospitals. And I change the number of hospital beds to 100. Now if everyone could choose self-quarantine, the epidemic could soon get under control, or even be eradicated.<br><img src="quarantine-03.png" alt="distribution of the virus"></p>
+<p>But…it’s human beings =_+. Sure thing we won’t pay enough attention to this thing at the beginning. So let’s change the mobility intention back to 0.99.</p>
+<p>As you can see, we would run out of the hospital beds quickly and everything would be back to the worst situation.<br><img src="quarantine-04.png" alt="distribution of the virus"></p>
+<p>Now we could only enlarge the quarantine zone and add more beds to hospitals. Let’s increase the number of hospital beds by 10 times. And see what’s gonna happen.<br><img src="quarantine-05.png" alt="distribution of the virus"><br>The epidemic would be under control quickly as well.</p>
+<p>This is why we build the hospital, <a href="https://en.wikipedia.org/wiki/Huoshenshan_Hospital" target="_blank" rel="noopener">Huoshenshan Hospital</a>, and the hospital <a href="https://en.wikipedia.org/wiki/Leishenshan_Hospital" target="_blank" rel="noopener">Leishenshan Hospital</a>, just like what we do before (while the SARS outbreak), building the hospital, <a href="https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%B1%A4%E5%B1%B1%E5%8C%BB%E9%99%A2" target="_blank" rel="noopener">Xiaotangshan Hospital</a>.</p>
+<p>And we have another parameter, named as hospital_receive_time, here. I use this to reflect the hospital response time, which means the average time a hospital would take from testing a patient positive to admitting him or her. If this process takes too long, things would go worse as well.</p>
+<p>Luckily, our country has been trying her best to fight against the virus. We should have confidence. The hospital response time is fast enough for this epidemic, and we would be faster and faster.</p>
+<p>So do you think this is already our happy ending?</p>
+<p>Absolutely not!</p>
+<p>I’ve met lots of people yesterday who think so. They are thinking about something like, “the hospitals are reacting faster, those who tested positive are already quarantined, and even the weather is much better. So it should be okay if I just get out, hang out a little bit and have some fun.” But don’t forget there is a <a href="https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html#f1" target="_blank" rel="noopener">14-day</a> incubation period.</p>
+<p>That’s indicated by this parameter, SHADOW_TIME. I set it as 0 at first, which means there would be no incubation period. Now, I will change it to 140 (which means 14 days in my program). Then, let’s see what the epidemic controlled well before will turn to be.<br><img src="quarantine-06.png" alt="distribution of the virus"><br>At the first, it’s hard to identify and quarantine potential patients since they are still in their incubation period.<br><img src="quarantine-07.png" alt="distribution of the virus"><br>But after that, we could see the same sudden burst of growth (of the infections) as before. And we would run out of the hospital beds quickly again. Once all the medical resources are exhausted, things would again get out of control.</p>
+<p>If at this time, we could stay at home for more time, which means we change the mobility intention back to -0.99, let’s see what would happen.<br><img src="quarantine-08.png" alt="distribution of the virus"><br>(It is also a process that all the health workers battle against the the virus.)</p>
+<p>It will surely take some time. But finally, the epidemic could be under control again and eradicated. </p>
+<p>We could see the parameter, mobility intention, plays a key role in the whole process. It’s basically dominated the development of epidemic. If we could keep the mobility intention of people super low, we could surely deal with any situation no matter how terrible it is.</p>
+<p>Thus, even though all the hard work of our health workers enabled us to speed up testing, the hospital response time is shortened as well, and it seems like the epidemic is already under control, we are still undergoing the risky incubation period, which means there may still be lots of “yellow points” in us.</p>
+<p>And this is the most dangerous moment as well.</p>
+<p>I really hope everyone would not overestimate his luckiness. Especially recently, the weather has become better in many places, and many people feel the outbreak is over. But you are more vulnerable when you are less vigilant.</p>
+<p>Our country has try her best to take the epidemic under control. But it’s actually us, every one of us common people, who plays the most significant role.</p>
+<p><a href="https://www.goodreads.com/quotes/273732-no-snowflake-in-an-avalanche-ever-feels-responsible" target="_blank" rel="noopener">“No snowflake in an avalanche ever feels responsible.”</a></p>
+<p>Still, I can’t contribute a lot during this fight against the outbreak. I’m just a programmer. I just hope I could help give more people a better idea of basic information in this epidemic by making it more intuitively through my technology. I really hope it could help a bit.</p>
+<p>On (Chinese) New Year’s Eve, I’ve shared a sentence from the novel, <a href="https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)" target="_blank" rel="noopener">Santi</a>， written by <a href="https://en.wikipedia.org/wiki/Liu_Cixin" target="_blank" rel="noopener">Cixin Liu</a>, with my family and friends: “Weakness and ignorance could never be our biggest obstacle to survive, our arrogance is.”</p>
+<p>(To all who I love, please stay healthy, paying enough attention to the epidemic. Better safe than sorry. Happy New Year.)</p>
+<p>Wish you safe and happy, my China.</p>
+<p>=======Information about COVID-19=======</p>
+<p><a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses" target="_blank" rel="noopener">“COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.”</a></p>
+<p>As far as we know, “the virus is thought to spread mainly from person-to-person”[2] through small droplets from the nose or mouth.</p>
+<p>People could catch COVID-19 by touching the objects or surfaces landed on those droplets, then touching their eyes, nose or mouth. This is why you’d better always avoid touching your face if you could not ensure your hands are clean (from <a href="(https://www.who.int/news-room/q-a-detail/q-a-coronaviruses)">who</a> and <a href="https://www.cdc.gov/coronavirus/2019-ncov/about/index.html" target="_blank" rel="noopener">cdc</a>).</p>
+<p>Plus, people could also catch it by breathe in those droplets (from <a href="(https://www.who.int/news-room/q-a-detail/q-a-coronaviruses)">who</a> and <a href="https://www.cdc.gov/coronavirus/2019-ncov/about/index.html" target="_blank" rel="noopener">cdc</a>).</p>
+<p>And according to a report published on The New England Journal of Medicine last month, <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2002032" target="_blank" rel="noopener">“the most common symptoms were fever (43.8% on admission and 99.7% during hospitalization) and cough(67.8%); diarrhea was uncommon (3.8%); the median incubation period was 4 days (interquartile range, 2 to 7).”</a></p>
+<p>The virus is hard to differentiate from the flu, but the mortality rate of COVID-19 could be as high as 3.4% while the rate of flu is fewer than 1% (from <a href="https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---3-march-2020" target="_blank" rel="noopener">who</a> and <a href="https://www.cdc.gov/flu/about/burden/2018-2019.html" target="_blank" rel="noopener">cdc</a>).</p>
+<p>And there is still no vaccines and no medications till now. We are even still learning how it spreads. And it is possible the virus will not be detected in the early stages of infection, which makes it more difficult for us to find who has caught the virus and help them quarantine (from <a href="https://www.cdc.gov/coronavirus/2019-ncov/faq.html#symptoms" target="_blank" rel="noopener">cdc</a>).</p>
+<p>The first known patient started experiencing symptoms on 1 Dec (from <a href="https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_coronavirus_outbreak" target="_blank" rel="noopener">wikipedia</a> and <a href="https://www.bbc.com/zhongwen/simp/chinese-news-51382117" target="_blank" rel="noopener">bbc</a>).</p>
+<p>Chinese state broadcaster CCTV reported in a broadcast airing on 12 January 2020 that a “new viral outbreak was first detected in the city of Wuhan, China, on 12 December 2019.” (from <a href="https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_coronavirus_outbreak" target="_blank" rel="noopener">wikipedia</a> and <a href="https://www.bbc.com/zhongwen/simp/chinese-news-51382117" target="_blank" rel="noopener">bbc</a>)</p>
+<p>“Xiangyang announced the suspension of ferry services at 00:00 on 28 January, putting the entirety of Hubei province under a city-by-city quarantine, save for Shennongjia Forestry District. The move came after the closure of its railway stations at 00:00 on 27 January, and shutting down of its airport and inter-city bus services earlier.”  (from <a href="https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_coronavirus_outbreak" target="_blank" rel="noopener">wikipedia</a> and <a href="https://www.bbc.com/zhongwen/simp/chinese-news-51382117" target="_blank" rel="noopener">bbc</a>).</p>
+<p>Till March 06, 01:11, <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia" target="_blank" rel="noopener">the cumulative number of patients diagnosed with COVID-19 in China is 80714 and 3045 out of them died. We still have 23832 patients diagnosed, and 5737 out of them are seriously ill. And there are still 482 suspected cases.</a></p>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>[1] <a href="https://www.bilibili.com/video/av86478875?from=search&amp;seid=1416731503425008221" target="_blank" rel="noopener">https://www.bilibili.com/video/av86478875?from=search&amp;seid=1416731503425008221</a><br>[2] <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia" target="_blank" rel="noopener">https://ncov.dxy.cn/ncovh5/view/pneumonia</a><br>[3] <a href="https://en.wikipedia.org/wiki/Normal_distribution" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Normal_distribution</a><br>[4] <a href="https://en.wikipedia.org/wiki/Huoshenshan_Hospital" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Huoshenshan_Hospital</a><br>[5] <a href="https://en.wikipedia.org/wiki/Leishenshan_Hospital" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Leishenshan_Hospital</a><br>[6] <a href="https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%B1%A4%E5%B1%B1%E5%8C%BB%E9%99%A2" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%B1%A4%E5%B1%B1%E5%8C%BB%E9%99%A2</a><br>[7] <a href="https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html#f1" target="_blank" rel="noopener">https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html#f1</a><br>[8] <a href="https://www.goodreads.com/quotes/273732-no-snowflake-in-an-avalanche-ever-feels-responsible" target="_blank" rel="noopener">https://www.goodreads.com/quotes/273732-no-snowflake-in-an-avalanche-ever-feels-responsible</a><br>[9] <a href="https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)</a><br>[10] <a href="https://en.wikipedia.org/wiki/Liu_Cixin" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Liu_Cixin</a><br>[11] WHO delivers briefing on coronavirus | USA TODAY: <a href="https://www.youtube.com/watch?v=0yQKbiMPsiY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=0yQKbiMPsiY</a><br>[13] Coping With A Coronavirus Outbreak In Tokyo And Seoul | NBC News NOW: <a href="https://www.youtube.com/watch?v=K88R_DeCBkc" target="_blank" rel="noopener">https://www.youtube.com/watch?v=K88R_DeCBkc</a><br>[14] The fallout from the new coronavirus now spreading coast to coast | WNT: <a href="https://www.youtube.com/watch?v=xoXjJd2Ae18" target="_blank" rel="noopener">https://www.youtube.com/watch?v=xoXjJd2Ae18</a><br>[15] [中国新闻] 众志成城 抗击疫情 新闻特写：共赴一线抗击疫情的夫妻 | CCTV中文国际: <a href="https://www.youtube.com/watch?v=oOiq6NxZcG4" target="_blank" rel="noopener">https://www.youtube.com/watch?v=oOiq6NxZcG4</a><br>[16] [今日环球] 火神山医院正式交付 记者探访病区 | CCTV中文国际: <a href="https://www.youtube.com/watch?v=ZBoHinkSeiE" target="_blank" rel="noopener">https://www.youtube.com/watch?v=ZBoHinkSeiE</a><br>[17] <a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses" target="_blank" rel="noopener">https://www.who.int/news-room/q-a-detail/q-a-coronaviruses</a><br>[18] <a href="https://www.cdc.gov/coronavirus/2019-ncov/about/index.html" target="_blank" rel="noopener">https://www.cdc.gov/coronavirus/2019-ncov/about/index.html</a><br>[19] <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2002032" target="_blank" rel="noopener">https://www.nejm.org/doi/full/10.1056/NEJMoa2002032</a><br>[20] <a href="https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---3-march-2020" target="_blank" rel="noopener">https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---3-march-2020</a><br>[21] <a href="https://www.cdc.gov/flu/about/burden/2018-2019.html" target="_blank" rel="noopener">https://www.cdc.gov/flu/about/burden/2018-2019.html</a><br>[22] <a href="https://www.cdc.gov/coronavirus/2019-ncov/faq.html#symptoms" target="_blank" rel="noopener">https://www.cdc.gov/coronavirus/2019-ncov/faq.html#symptoms</a><br>[23] <a href="https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_coronavirus_outbreak" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_coronavirus_outbreak</a><br>[24] <a href="https://www.bbc.com/zhongwen/simp/chinese-news-51382117" target="_blank" rel="noopener">https://www.bbc.com/zhongwen/simp/chinese-news-51382117</a></p>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>Welcome to my other publishing channels</p>
+
+    <div class="social-list">
+
+            <div class="social-item">
+              <a target="_blank" class="social-link" href="/atom.xml">
+                <span class="icon">
+                  <i class="fa fa-rss"></i>
+                </span>
+
+                <span class="label">RSS</span>
+              </a>
+            </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Translation/" rel="tag"># Translation</a>
+              <a href="/tags/COVID-19/" rel="tag"># COVID-19</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/05/12/%E8%AF%BB%E4%B9%A6%E4%BC%9A-%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8E%86%E5%8F%B2-%E6%96%AF%E5%9D%A6%E8%BF%AA%E5%A5%87/" rel="prev" title="读书会 | 舌尖上的历史 An Edible History of Humanity - 斯坦迪奇">
+      <i class="fa fa-chevron-left"></i> 读书会 | 舌尖上的历史 An Edible History of Humanity - 斯坦迪奇
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#英译视频地址："><span class="nav-number">1.</span> <span class="nav-text">英译视频地址：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reference"><span class="nav-number"></span> <span class="nav-text">Reference</span></a></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Ms Pauli"
+      src="/images/pauli.JPG">
+  <p class="site-author-name" itemprop="name">Ms Pauli</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:my1219share@gmail.com" title="E-Mail → mailto:my1219share@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.weibo.com/p/1005056452818466/" title="Weibo → https:&#x2F;&#x2F;www.weibo.com&#x2F;p&#x2F;1005056452818466&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/mymspauli" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;mymspauli" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.youtube.com/channel/UC0DH1-LADF3sy-zjDJGgwjQ/featured" title="YouTube → https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC0DH1-LADF3sy-zjDJGgwjQ&#x2F;featured" rel="noopener" target="_blank"><i class="fa fa-fw fa-youtube"></i>YouTube</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/275812277" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;275812277" rel="noopener" target="_blank"><i class="fa fa-fw fa-bilibili"></i>bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/ms_pauli_22" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;ms_pauli_22" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i>Instagram</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i>RSS</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ms Pauli</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.getAttribute('pjax') !== null) {
+      script.setAttribute('pjax', '');
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+    </div>
+</body>
+</html>
