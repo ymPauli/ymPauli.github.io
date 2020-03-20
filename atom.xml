@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-20T06:30:36.800Z</updated>
+  <updated>2020-03-20T06:35:06.801Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/03/19/iMessage/"/>
     <id>http://yoursite.com/2020/03/19/iMessage/</id>
     <published>2020-03-20T05:41:39.000Z</published>
-    <updated>2020-03-20T06:30:36.800Z</updated>
+    <updated>2020-03-20T06:35:06.801Z</updated>
     
     <summary type="html">
     
@@ -47,6 +47,10 @@
 &lt;li&gt;&lt;p&gt;一点屁话: 认为工具完全是被自己操控, 自己可以不受工具的影响, 是一种非常古老的错觉. 事实就是, 即使是可以抵抗, 工具也一样会不断对使用者的从生活到思想的方方面面产生影响. 而如果觉得一样工具不好用/对自己产生了坏的影响, 即使很麻烦, 也要努力寻找替代工具. “效率”, “方便”, “减少麻烦”真的是需要警惕一万分的词语. 如果真心实意的想向人推荐一样工具/一部作品/一种文化/无论什么, 是需要首先充分理解对方的q需求, f然后不厌其烦的非常耐心的解释每一个细节, 每一项优点与缺点, 提供足够多的信息, 还要死皮赖脸. 如果”怕麻烦”, 就只能不断自我封闭/自我阉割.&lt;br&gt;&lt;img src=&quot;9.jpg&quot; alt&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;可能的问题: iMessage传图片和视频会有些慢, 但我可以接受慢, 可以等待.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;iOS端转发多条消息时, 会直接将消息合并成一条并允许你再编辑, 体验上就是一个会促使你在需要调出一段对话时, 将其转化为完整的段落的机制.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;PC端可以直接选中消息, “右键”调出选项选择services, 将消息Add to Evernote.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
