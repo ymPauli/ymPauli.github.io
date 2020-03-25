@@ -5,9 +5,9 @@
   <subtitle>I am here, somewhere</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://my1219.today/"/>
   <updated>2020-03-24T22:00:05.862Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://my1219.today/</id>
   
   <author>
     <name>Ms Pauli</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>电子书阅读姿势大赏1.0(花式赞美Kindle)</title>
-    <link href="http://yoursite.com/2020/03/23/eread/"/>
-    <id>http://yoursite.com/2020/03/23/eread/</id>
+    <link href="https://my1219.today/2020/03/23/eread/"/>
+    <id>https://my1219.today/2020/03/23/eread/</id>
     <published>2020-03-23T20:07:23.000Z</published>
     <updated>2020-03-24T22:00:05.862Z</updated>
     
@@ -36,27 +36,27 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://yoursite.com/categories/Tools/"/>
+      <category term="Tools" scheme="https://my1219.today/categories/Tools/"/>
     
     
-      <category term="Apple" scheme="http://yoursite.com/tags/Apple/"/>
+      <category term="Apple" scheme="https://my1219.today/tags/Apple/"/>
     
-      <category term="Tools" scheme="http://yoursite.com/tags/Tools/"/>
+      <category term="Tools" scheme="https://my1219.today/tags/Tools/"/>
     
-      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
-      <category term="Kindle" scheme="http://yoursite.com/tags/Kindle/"/>
+      <category term="Kindle" scheme="https://my1219.today/tags/Kindle/"/>
     
-      <category term="iBook" scheme="http://yoursite.com/tags/iBook/"/>
+      <category term="iBook" scheme="https://my1219.today/tags/iBook/"/>
     
-      <category term="Marginnote" scheme="http://yoursite.com/tags/Marginnote/"/>
+      <category term="Marginnote" scheme="https://my1219.today/tags/Marginnote/"/>
     
   </entry>
   
   <entry>
     <title>钢之炼金术师观看指南1.0</title>
-    <link href="http://yoursite.com/2020/03/21/fullmetal/"/>
-    <id>http://yoursite.com/2020/03/21/fullmetal/</id>
+    <link href="https://my1219.today/2020/03/21/fullmetal/"/>
+    <id>https://my1219.today/2020/03/21/fullmetal/</id>
     <published>2020-03-22T03:21:15.000Z</published>
     <updated>2020-03-24T22:01:07.246Z</updated>
     
@@ -77,23 +77,23 @@
     </summary>
     
     
-      <category term="Medium" scheme="http://yoursite.com/categories/Medium/"/>
+      <category term="Medium" scheme="https://my1219.today/categories/Medium/"/>
     
     
-      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
-      <category term="Medium" scheme="http://yoursite.com/tags/Medium/"/>
+      <category term="Medium" scheme="https://my1219.today/tags/Medium/"/>
     
-      <category term="Comics" scheme="http://yoursite.com/tags/Comics/"/>
+      <category term="Comics" scheme="https://my1219.today/tags/Comics/"/>
     
-      <category term="Fullmetal Alchemist" scheme="http://yoursite.com/tags/Fullmetal-Alchemist/"/>
+      <category term="Fullmetal Alchemist" scheme="https://my1219.today/tags/Fullmetal-Alchemist/"/>
     
   </entry>
   
   <entry>
     <title>半吊子果粉 - all about iMessage 1.0</title>
-    <link href="http://yoursite.com/2020/03/19/iMessage/"/>
-    <id>http://yoursite.com/2020/03/19/iMessage/</id>
+    <link href="https://my1219.today/2020/03/19/iMessage/"/>
+    <id>https://my1219.today/2020/03/19/iMessage/</id>
     <published>2020-03-20T05:41:39.000Z</published>
     <updated>2020-03-24T22:00:59.481Z</updated>
     
@@ -132,21 +132,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://yoursite.com/categories/Tools/"/>
+      <category term="Tools" scheme="https://my1219.today/categories/Tools/"/>
     
     
-      <category term="Apple" scheme="http://yoursite.com/tags/Apple/"/>
+      <category term="Apple" scheme="https://my1219.today/tags/Apple/"/>
     
-      <category term="iMessage" scheme="http://yoursite.com/tags/iMessage/"/>
+      <category term="iMessage" scheme="https://my1219.today/tags/iMessage/"/>
     
-      <category term="Tools" scheme="http://yoursite.com/tags/Tools/"/>
+      <category term="Tools" scheme="https://my1219.today/tags/Tools/"/>
     
   </entry>
   
   <entry>
     <title>Authorized Translation/授权英译 | Simulation program shows you why you should still keep quarantine yourself at home (Scripts)</title>
-    <link href="http://yoursite.com/2020/03/08/self-quarantine-scripts/"/>
-    <id>http://yoursite.com/2020/03/08/self-quarantine-scripts/</id>
+    <link href="https://my1219.today/2020/03/08/self-quarantine-scripts/"/>
+    <id>https://my1219.today/2020/03/08/self-quarantine-scripts/</id>
     <published>2020-03-08T15:39:30.000Z</published>
     <updated>2020-03-19T19:23:57.496Z</updated>
     
@@ -168,19 +168,19 @@
     </summary>
     
     
-      <category term="Translation" scheme="http://yoursite.com/categories/Translation/"/>
+      <category term="Translation" scheme="https://my1219.today/categories/Translation/"/>
     
     
-      <category term="Translation" scheme="http://yoursite.com/tags/Translation/"/>
+      <category term="Translation" scheme="https://my1219.today/tags/Translation/"/>
     
-      <category term="COVID-19" scheme="http://yoursite.com/tags/COVID-19/"/>
+      <category term="COVID-19" scheme="https://my1219.today/tags/COVID-19/"/>
     
   </entry>
   
   <entry>
     <title>读书会 | 舌尖上的历史 An Edible History of Humanity - 斯坦迪奇</title>
-    <link href="http://yoursite.com/2019/05/12/%E8%AF%BB%E4%B9%A6%E4%BC%9A-%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8E%86%E5%8F%B2-%E6%96%AF%E5%9D%A6%E8%BF%AA%E5%A5%87/"/>
-    <id>http://yoursite.com/2019/05/12/%E8%AF%BB%E4%B9%A6%E4%BC%9A-%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8E%86%E5%8F%B2-%E6%96%AF%E5%9D%A6%E8%BF%AA%E5%A5%87/</id>
+    <link href="https://my1219.today/2019/05/12/%E8%AF%BB%E4%B9%A6%E4%BC%9A-%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8E%86%E5%8F%B2-%E6%96%AF%E5%9D%A6%E8%BF%AA%E5%A5%87/"/>
+    <id>https://my1219.today/2019/05/12/%E8%AF%BB%E4%B9%A6%E4%BC%9A-%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8E%86%E5%8F%B2-%E6%96%AF%E5%9D%A6%E8%BF%AA%E5%A5%87/</id>
     <published>2019-05-13T01:51:12.000Z</published>
     <updated>2020-03-24T21:59:17.529Z</updated>
     
@@ -240,20 +240,20 @@
     </summary>
     
     
-      <category term="Books" scheme="http://yoursite.com/categories/Books/"/>
+      <category term="Books" scheme="https://my1219.today/categories/Books/"/>
     
     
-      <category term="ReadingNote" scheme="http://yoursite.com/tags/ReadingNote/"/>
+      <category term="ReadingNote" scheme="https://my1219.today/tags/ReadingNote/"/>
     
-      <category term="History" scheme="http://yoursite.com/tags/History/"/>
+      <category term="History" scheme="https://my1219.today/tags/History/"/>
     
-      <category term="Food Culture" scheme="http://yoursite.com/tags/Food-Culture/"/>
+      <category term="Food Culture" scheme="https://my1219.today/tags/Food-Culture/"/>
     
-      <category term="Anthropology" scheme="http://yoursite.com/tags/Anthropology/"/>
+      <category term="Anthropology" scheme="https://my1219.today/tags/Anthropology/"/>
     
-      <category term="Sociology" scheme="http://yoursite.com/tags/Sociology/"/>
+      <category term="Sociology" scheme="https://my1219.today/tags/Sociology/"/>
     
-      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
   </entry>
   
