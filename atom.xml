@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ALL UNDISCOVERED</title>
-  <icon>https://my1219.today/images/pauli.JPG</icon>
+  <icon>https://my1219.today/pauli.JPG</icon>
   <subtitle>I am here, somewhere</subtitle>
   <link href="/atom.xml" rel="self"/>
   
