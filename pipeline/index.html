@@ -28,8 +28,8 @@
 <meta property="og:site_name" content="ALL UNDISCOVERED">
 <meta property="og:description" content="Ms Pauli&#39;s Language System    About me 2013 - 2017: B.Sc., Information and Computing Science, Mathematics 2017 - 2018: M.Sc, Computer Science Since 04&#x2F;01&#x2F;2019: Software Engineer  Informati">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-04-05T05:54:04.835Z">
-<meta property="article:modified_time" content="2020-04-05T05:54:04.835Z">
+<meta property="article:published_time" content="2020-04-05T07:01:31.225Z">
+<meta property="article:modified_time" content="2020-04-05T07:01:31.225Z">
 <meta property="article:author" content="Ms Pauli">
 <meta name="twitter:card" content="summary">
 
@@ -225,7 +225,7 @@
 <h1 style="text-align: center">Information Pipeline</h1>
 <h2 style="text-align: center">Raw Data</h2>
 <body style="height: 100%; margin: 0">
-<div id="rawdata" style="height: 800%"></div>
+<div id="rawdata" style="height: 350%"></div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
@@ -239,6 +239,9 @@
         tooltip: {},
         animationDurationUpdate: 1500,
         animationEasingUpdate: 'quinticInOut',
+        legend: {
+            data: ['Books', 'Medium', 'Tools', 'Translation']
+        },
         series: [
             {
                 type: 'graph',
@@ -250,64 +253,840 @@
                 },
                 draggable: true,
                 nodes: [{
-                    "name": "节点1",
+                    "name": "历史",
                     "value": 1,
-                    "category": "HTMLElement"
+                    "category": "Books"
                 }, {
-                    name: '节点2',
+                    name: '舌尖上的历史',
                     "value": 1,
-                    "category": "HTMLElement"
+                    "category": "Books"
                 }, {
-                    name: '节点3',
+                    name: '斯坦迪奇',
                     "value": 1,
-                    "category": "WebGL"
+                    "category": "Books"
                 }, {
-                    name: '节点4',
+                    name: '描述世界',
                     "value": 1,
-                    "category": "WebGL"
+                    "category": "Books"
+                }, {
+                    name: '构建世界',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '香料',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '植物学家',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '农牧',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '食物',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '权力',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '能源',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '宗教',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '工业化',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '蒸汽机',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '马铃薯',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '武器',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '驯化',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '玉米',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '小麦',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: '水稻',
+                    "value": 1,
+                    "category": "Books"
+                }, {
+                    name: 'translation',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'simulation program',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'self-quarantine',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'distribution',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'hospital',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'epidemic',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'mobility',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'virus',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'model',
+                    "value": 1,
+                    "category": "Translation"
+                }, {
+                    name: 'iMessage',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'tool',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: '端到端加密',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'Apple Music',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'Castro',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'Evernote',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'find images',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'emoji',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'sticker',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'effect',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'kindle',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: '电子书',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: '阅读',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: '导出笔记',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'marginnote',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'iBook',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'readmoo',
+                    "value": 1,
+                    "category": "Tools"
+                }, {
+                    name: 'medium',
+                    "value": 1,
+                    "category": "Medium"
+                }, {
+                    name: '钢之炼金术师',
+                    "value": 1,
+                    "category": "Medium"
+                }, {
+                    name: '漫画',
+                    "value": 1,
+                    "category": "Medium"
+                }, {
+                    name: 'Life 3.0',
+                    "value": 1,
+                    "category": "Medium"
+                }, {
+                    name: 'the hero with a thousand faces',
+                    "value": 1,
+                    "category": "Medium"
+                }, {
+                    name: 'Conquerors',
+                    "value": 1,
+                    "category": "Medium"
                 }],
                 categories: [{
-                    "name": "HTMLElement",
+                    "name": "Books",
                     "keyword": {},
-                    "base": "HTMLElement",
+                    "base": "Books",
                     "itemStyle": {
                         "normal": {
                             "brushType": "both",
-                            "color": "#D0D102",
+                            "color": "#005082",
                             "strokeColor": "#5182ab",
                             "lineWidth": 1
                         }
                     }
-                },
-                    {
-                        "name": "WebGL",
-                        "keyword": {},
-                        "base": "WebGLRenderingContext",
-                        "itemStyle": {
-                            "normal": {
-                                "brushType": "both",
-                                "color": "#00A1CB",
-                                "strokeColor": "#5182ab",
-                                "lineWidth": 1
-                            }
+                },{
+                    "name": "Medium",
+                    "keyword": {},
+                    "base": "Medium",
+                    "itemStyle": {
+                        "normal": {
+                            "brushType": "both",
+                            "color": "#00a8cc",
+                            "strokeColor": "#5182ab",
+                            "lineWidth": 1
                         }
-                    }],
+                    }
+                },{
+                    "name": "Tools",
+                    "keyword": {},
+                    "base": "Tools",
+                    "itemStyle": {
+                        "normal": {
+                            "brushType": "both",
+                            "color": "#ffa41b",
+                            "strokeColor": "#5182ab",
+                            "lineWidth": 1
+                        }
+                    }
+                },{
+                    "name": "Translation",
+                    "keyword": {},
+                    "base": "Translation",
+                    "itemStyle": {
+                        "normal": {
+                            "brushType": "both",
+                            "color": "#844685",
+                            "strokeColor": "#5182ab",
+                            "lineWidth": 1
+                        }
+                    }
+                }],
                 // links: [],
                 links: [{
-                    source: '节点2',
-                    target: '节点1',
+                    source: '舌尖上的历史',
+                    target: '历史',
                 }, {
-                    source: '节点1',
-                    target: '节点3'
+                    source: '斯坦迪奇',
+                    target: '历史'
                 }, {
-                    source: '节点2',
-                    target: '节点3'
+                    source: '斯坦迪奇',
+                    target: '舌尖上的历史'
                 }, {
-                    source: '节点2',
-                    target: '节点4'
+                    source: '描述世界',
+                    target: '历史'
                 }, {
-                    source: '节点1',
-                    target: '节点4'
+                    source: '构建世界',
+                    target: '历史'
+                }, {
+                    source: '香料',
+                    target: '历史'
+                }, {
+                    source: '香料',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '香料',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '香料',
+                    target: '权力'
+                }, {
+                    source: '植物学家',
+                    target: '历史'
+                }, {
+                    source: '植物学家',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '植物学家',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '植物学家',
+                    target: '阅读'
+                }, {
+                    source: '农牧',
+                    target: '历史'
+                }, {
+                    source: '农牧',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '农牧',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '食物',
+                    target: '历史'
+                }, {
+                    source: '食物',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '食物',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '香料',
+                    target: '食物'
+                }, {
+                    source: '植物学家',
+                    target: '食物'
+                }, {
+                    source: '农牧',
+                    target: '食物'
+                }, {
+                    source: '权力',
+                    target: '食物'
+                }, {
+                    source: '权力',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '权力',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '食物',
+                    target: '权力'
+                }, {
+                    source: '香料',
+                    target: '权力'
+                }, {
+                    source: '能源',
+                    target: '权力'
+                }, {
+                    source: '能源',
+                    target: '食物'
+                }, {
+                    source: '能源',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '能源',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '能源',
+                    target: '权力'
+                }, {
+                    source: '宗教',
+                    target: '食物'
+                }, {
+                    source: '宗教',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '宗教',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '宗教',
+                    target: '阅读'
+                }, {
+                    source: '宗教',
+                    target: '权力'
+                }, {
+                    source: '工业化',
+                    target: '历史'
+                }, {
+                    source: '工业化',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '工业化',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '工业化',
+                    target: '能源'
+                }, {
+                    source: '工业化',
+                    target: '权力'
+                }, {
+                    source: '能源',
+                    target: '工业化'
+                }, {
+                    source: '工业化',
+                    target: '农牧'
+                }, {
+                    source: '农牧',
+                    target: '工业化'
+                }, {
+                    source: '蒸汽机',
+                    target: '工业化'
+                }, {
+                    source: '蒸汽机',
+                    target: '历史'
+                }, {
+                    source: '蒸汽机',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '蒸汽机',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '蒸汽机',
+                    target: '权力'
+                }, {
+                    source: '马铃薯',
+                    target: '食物'
+                }, {
+                    source: '马铃薯',
+                    target: '农牧'
+                }, {
+                    source: '马铃薯',
+                    target: '历史'
+                }, {
+                    source: '马铃薯',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '马铃薯',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '马铃薯',
+                    target: '权力'
+                }, {
+                    source: '马铃薯',
+                    target: '能源'
+                }, {
+                    source: '武器',
+                    target: '权力'
+                }, {
+                    source: '武器',
+                    target: '历史'
+                }, {
+                    source: '武器',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '武器',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '武器',
+                    target: '食物'
+                }, {
+                    source: '驯化',
+                    target: '食物'
+                }, {
+                    source: '驯化',
+                    target: '权力'
+                }, {
+                    source: '驯化',
+                    target: '历史'
+                }, {
+                    source: '驯化',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '驯化',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '驯化',
+                    target: '农牧'
+                }, {
+                    source: '玉米',
+                    target: '食物'
+                }, {
+                    source: '玉米',
+                    target: '农牧'
+                }, {
+                    source: '玉米',
+                    target: '历史'
+                }, {
+                    source: '玉米',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '玉米',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '玉米',
+                    target: '驯化'
+                }, {
+                    source: '玉米',
+                    target: '权力'
+                }, {
+                    source: '玉米',
+                    target: '能源'
+                }, {
+                    source: '小麦',
+                    target: '食物'
+                }, {
+                    source: '小麦',
+                    target: '农牧'
+                }, {
+                    source: '小麦',
+                    target: '历史'
+                }, {
+                    source: '小麦',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '小麦',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '小麦',
+                    target: '驯化'
+                }, {
+                    source: '小麦',
+                    target: '权力'
+                }, {
+                    source: '水稻',
+                    target: '食物'
+                }, {
+                    source: '水稻',
+                    target: '农牧'
+                }, {
+                    source: '水稻',
+                    target: '历史'
+                }, {
+                    source: '水稻',
+                    target: '舌尖上的历史'
+                }, {
+                    source: '水稻',
+                    target: '斯坦迪奇'
+                }, {
+                    source: '玉米',
+                    target: '驯化'
+                }, {
+                    source: '玉米',
+                    target: '权力'
+                }, {
+                    source: 'simulation program',
+                    target: 'translation'
+                }, {
+                    source: 'self-quarantine',
+                    target: 'translation'
+                }, {
+                    source: 'simulation program',
+                    target: 'self-quarantine'
+                }, {
+                    source: 'distribution',
+                    target: 'translation'
+                }, {
+                    source: 'distribution',
+                    target: 'simulation program'
+                }, {
+                    source: 'distribution',
+                    target: 'self-quarantine'
+                }, {
+                    source: 'hospital',
+                    target: 'translation'
+                }, {
+                    source: 'epidemic',
+                    target: 'translation'
+                }, {
+                    source: 'epidemic',
+                    target: 'self-quarantine'
+                }, {
+                    source: 'self-quarantine',
+                    target: 'epidemic'
+                }, {
+                    source: 'epidemic',
+                    target: 'distribution'
+                }, {
+                    source: 'epidemic',
+                    target: 'hospital'
+                }, {
+                    source: 'mobility',
+                    target: 'translation'
+                }, {
+                    source: 'mobility',
+                    target: 'self-quarantine'
+                }, {
+                    source: 'mobility',
+                    target: 'distribution'
+                }, {
+                    source: 'mobility',
+                    target: 'hospital'
+                }, {
+                    source: 'mobility',
+                    target: 'epidemic'
+                }, {
+                    source: 'virus',
+                    target: 'translation'
+                }, {
+                    source: 'virus',
+                    target: 'self-quarantine'
+                }, {
+                    source: 'virus',
+                    target: 'epidemic'
+                }, {
+                    source: 'virus',
+                    target: 'distribution'
+                }, {
+                    source: 'virus',
+                    target: 'hospital'
+                }, {
+                    source: 'mobility',
+                    target: 'virus'
+                }, {
+                    source: 'virus',
+                    target: 'simulation program'
+                }, {
+                    source: 'mobility',
+                    target: 'simulation program'
+                }, {
+                    source: 'epidemic',
+                    target: 'simulation program'
+                }, {
+                    source: 'model',
+                    target: 'translation'
+                }, {
+                    source: 'model',
+                    target: 'simulation program'
+                }, {
+                    source: 'simulation program',
+                    target: 'model'
+                }, {
+                    source: 'virus',
+                    target: 'model'
+                }, {
+                    source: 'epidemic',
+                    target: 'model'
+                }, {
+                    source: 'self-quarantine',
+                    target: 'model'
+                }, {
+                    source: 'distribution',
+                    target: 'model'
+                }, {
+                    source: 'model',
+                    target: 'distribution'
+                }, {
+                    source: 'hospital',
+                    target: 'model'
+                }, {
+                    source: 'mobility',
+                    target: 'model'
+                }, {
+                    source: 'iMessage',
+                    target: 'tool'
+                }, {
+                    source: 'model',
+                    target: 'tool'
+                }, {
+                    source: 'self-quarantine',
+                    target: 'tool'
+                }, {
+                    source: 'simulation program',
+                    target: 'tool'
+                }, {
+                    source: '端到端加密',
+                    target: 'iMessage'
+                }, {
+                    source: 'Apple Music',
+                    target: 'iMessage'
+                }, {
+                    source: 'Apple Music',
+                    target: 'tool'
+                }, {
+                    source: 'Castro',
+                    target: 'iMessage'
+                }, {
+                    source: 'Castro',
+                    target: 'tool'
+                }, {
+                    source: 'Evernote',
+                    target: 'iMessage'
+                }, {
+                    source: 'Evernote',
+                    target: 'tool'
+                }, {
+                    source: 'find images',
+                    target: 'iMessage'
+                }, {
+                    source: 'find images',
+                    target: 'tool'
+                }, {
+                    source: 'emoji',
+                    target: 'iMessage'
+                }, {
+                    source: 'emoji',
+                    target: 'tool'
+                }, {
+                    source: 'sticker',
+                    target: 'iMessage'
+                }, {
+                    source: 'sticker',
+                    target: 'tool'
+                }, {
+                    source: 'emoji',
+                    target: 'sticker'
+                }, {
+                    source: 'effect',
+                    target: 'tool'
+                }, {
+                    source: 'effect',
+                    target: 'iMessage'
+                }, {
+                    source: 'effect',
+                    target: 'sticker'
+                }, {
+                    source: 'effect',
+                    target: 'emoji'
+                }, {
+                    source: 'kindle',
+                    target: 'tool'
+                }, {
+                    source: 'kindle',
+                    target: '电子书'
+                }, {
+                    source: 'kindle',
+                    target: '阅读'
+                }, {
+                    source: 'kindle',
+                    target: '阅读'
+                }, {
+                    source: '电子书',
+                    target: '阅读'
+                }, {
+                    source: '阅读',
+                    target: 'Evernote'
+                }, {
+                    source: '电子书',
+                    target: 'Evernote'
+                }, {
+                    source: 'kindle',
+                    target: 'Evernote'
+                }, {
+                    source: '历史',
+                    target: '阅读'
+                }, {
+                    source: '舌尖上的历史',
+                    target: '阅读'
+                }, {
+                    source: '斯坦迪奇',
+                    target: '阅读'
+                }, {
+                    source: '描述世界',
+                    target: '阅读'
+                }, {
+                    source: '构建世界',
+                    target: '阅读'
+                }, {
+                    source: '阅读',
+                    target: 'translation'
+                }, {
+                    source: '阅读',
+                    target: '导出笔记'
+                }, {
+                    source: 'Kindle',
+                    target: '导出笔记'
+                }, {
+                    source: '电子书',
+                    target: '导出笔记'
+                }, {
+                    source: '导出笔记',
+                    target: 'Evernote'
+                }, {
+                    source: 'marginnote',
+                    target: '电子书'
+                }, {
+                    source: 'marginnote',
+                    target: '阅读'
+                }, {
+                    source: 'marginnote',
+                    target: '导出笔记'
+                }, {
+                    source: 'marginnote',
+                    target: 'Evernote'
+                }, {
+                    source: 'iBook',
+                    target: '阅读'
+                }, {
+                    source: 'iBook',
+                    target: 'tool'
+                }, {
+                    source: 'iBook',
+                    target: '电子书'
+                }, {
+                    source: 'iBook',
+                    target: 'Evernote'
+                }, {
+                    source: 'readmoo',
+                    target: '阅读'
+                }, {
+                    source: 'readmoo',
+                    target: '电子书'
+                }, {
+                    source: 'readmoo',
+                    target: 'tool'
+                }, {
+                    source: '钢之炼金术师',
+                    target: 'medium'
+                }, {
+                    source: '钢之炼金术师',
+                    target: '漫画'
+                }, {
+                    source: 'kindle',
+                    target: '漫画'
+                }, {
+                    source: 'Life 3.0',
+                    target: 'medium'
+                }, {
+                    source: '钢之炼金术师',
+                    target: 'Life 3.0'
+                }, {
+                    source: 'Life 3.0',
+                    target: '阅读'
+                }, {
+                    source: '钢之炼金术师',
+                    target: '阅读'
+                }, {
+                    source: 'Life 3.0',
+                    target: 'the hero with a thousand faces'
+                }, {
+                    source: 'the hero with a thousand faces',
+                    target: 'Life 3.0'
+                }, {
+                    source: 'Conquerors',
+                    target: 'Life 3.0'
+                }, {
+                    source: 'Conquerors',
+                    target: '钢之炼金术师'
+                }, {
+                    source: 'Conquerors',
+                    target: '权力'
+                }, {
+                    source: 'Life 3.0',
+                    target: 'medium'
+                }, {
+                    source: 'the hero with a thousand faces',
+                    target: 'medium'
+                }, {
+                    source: 'Conquerors',
+                    target: 'medium'
                 }],
                 lineStyle: {
                     opacity: 0.9,
