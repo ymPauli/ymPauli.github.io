@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/telescope@4x.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/telescope@2x.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/telescope.png">
+  <link rel="mask-icon" href="/images/telescope.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"my1219.today","root":"/","scheme":"Muse","version":"7.7.1","exturl":false,"sidebar":{"position":"right","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="Ms Pauli&#39;s Language System    About me 2013 - 2017: B.Sc., Information and Computing Science, Mathematics 2017 - 2018: M.Sc, Computer Science Since 04&#x2F;01&#x2F;2019: Software Engineer  Informati">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ALL UNDISCOVERED">
+<meta property="og:url" content="https://my1219.today/pipeline/index.html">
+<meta property="og:site_name" content="ALL UNDISCOVERED">
+<meta property="og:description" content="Ms Pauli&#39;s Language System    About me 2013 - 2017: B.Sc., Information and Computing Science, Mathematics 2017 - 2018: M.Sc, Computer Science Since 04&#x2F;01&#x2F;2019: Software Engineer  Informati">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-04-05T05:54:04.835Z">
+<meta property="article:modified_time" content="2020-04-05T05:54:04.835Z">
+<meta property="article:author" content="Ms Pauli">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://my1219.today/pipeline/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: false
+  };
+</script>
+
+  <title> | ALL UNDISCOVERED
+  </title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">ALL UNDISCOVERED</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">I am here, somewhere</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-explore">
+
+    <a href="/pipeline/" rel="section"><i class="fa fa-fw fa-map-marker"></i>Explore</a>
+
+  </li>
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-podcast">
+
+    <a href="https://weijingzhidi.fireside.fm/" rel="noopener" target="_blank"><i class="fa fa-fw fa-podcast"></i>Podcast</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <!DOCTYPE html>
+<html lang="en", style="height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <title>Ms Pauli's Language System</title>
+<link rel="alternate" href="/atom.xml" title="ALL UNDISCOVERED" type="application/atom+xml">
+</head>
+<body>
+<h1 style="text-align: center">About me</h1>
+<ul>2013 - 2017: B.Sc., Information and Computing Science, Mathematics</ul>
+<ul>2017 - 2018: M.Sc, Computer Science</ul>
+<ul>Since 04/01/2019: Software Engineer</ul>
+
+<h1 style="text-align: center">Information Pipeline</h1>
+<h2 style="text-align: center">Raw Data</h2>
+<body style="height: 100%; margin: 0">
+<div id="rawdata" style="height: 800%"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+<script type="text/javascript">
+    var dom = document.getElementById("rawdata");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    option = {
+        tooltip: {},
+        animationDurationUpdate: 1500,
+        animationEasingUpdate: 'quinticInOut',
+        series: [
+            {
+                type: 'graph',
+                layout: 'force',
+                animation: false,
+                label: {
+                    position: 'right',
+                    formatter: '{b}'
+                },
+                draggable: true,
+                nodes: [{
+                    "name": "节点1",
+                    "value": 1,
+                    "category": "HTMLElement"
+                }, {
+                    name: '节点2',
+                    "value": 1,
+                    "category": "HTMLElement"
+                }, {
+                    name: '节点3',
+                    "value": 1,
+                    "category": "WebGL"
+                }, {
+                    name: '节点4',
+                    "value": 1,
+                    "category": "WebGL"
+                }],
+                categories: [{
+                    "name": "HTMLElement",
+                    "keyword": {},
+                    "base": "HTMLElement",
+                    "itemStyle": {
+                        "normal": {
+                            "brushType": "both",
+                            "color": "#D0D102",
+                            "strokeColor": "#5182ab",
+                            "lineWidth": 1
+                        }
+                    }
+                },
+                    {
+                        "name": "WebGL",
+                        "keyword": {},
+                        "base": "WebGLRenderingContext",
+                        "itemStyle": {
+                            "normal": {
+                                "brushType": "both",
+                                "color": "#00A1CB",
+                                "strokeColor": "#5182ab",
+                                "lineWidth": 1
+                            }
+                        }
+                    }],
+                // links: [],
+                links: [{
+                    source: '节点2',
+                    target: '节点1',
+                }, {
+                    source: '节点1',
+                    target: '节点3'
+                }, {
+                    source: '节点2',
+                    target: '节点3'
+                }, {
+                    source: '节点2',
+                    target: '节点4'
+                }, {
+                    source: '节点1',
+                    target: '节点4'
+                }],
+                lineStyle: {
+                    opacity: 0.9,
+                    width: 2,
+                    curveness: 0
+                }
+            }
+        ]
+    };;
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+</script>
+</body>
+
+
+<h2 style="text-align: center">Analysis</h2>
+<body style="height: 100%; margin: 0">
+<div id="analysis" style="height: 800%"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+<script type="text/javascript">
+    var dom = document.getElementById("analysis");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    var data = [
+        [[-7,10,200,'Life','Life', 'https://my1219.today/life/']],[[10,10,300,'Survival','Survival', 'https://my1219.today/survival/']],
+        [[-10,-15,300,'Soul','Soul', 'https://my1219.today/soul/']],[[10,-10,350,'Mind','Mind', 'https://my1219.today/mind/']]
+    ];
+
+    option = {
+        backgroundColor: new echarts.graphic.RadialGradient(0, 1, 1, [{
+            offset: 0,
+            color: '#ffffff'
+        }]),
+        legend: {
+            right: 10,
+            data: ['Life', 'Survival', 'Soul', 'Mind']
+        },
+        xAxis: {
+            min: -30,
+            max: 30,
+            name: "(Practicality(Thinking) Value - Aesthetics(Feeling) Value)",
+            nameRotate: 270,
+            splitLine: {
+                show:false
+            },
+            axisTick :{
+                show: false
+            },
+            axisLabel :{
+                show: false
+            }
+        },
+        yAxis: {
+            min: -30,
+            max: 30,
+            name: "(Practicing Time - Learning Time)",
+            splitLine: {
+                show: false
+            },
+            axisTick :{
+                show: false
+            },
+            axisLabel :{
+                show: false
+            },
+            scale: true
+        },
+        series: [{
+            name: 'Life',
+            data: data[0],
+            type: 'scatter',
+            label: { show: true, formatter: 'Life' },
+            symbolSize: function (data) {
+                return data[2];
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                    formatter: function (param) {
+                        return param.data[3];
+                    },
+                    position: 'inside'
+                }
+            },
+            itemStyle: {
+                shadowBlur: 10,
+                shadowColor: 'rgba(120, 36, 50, 0.5)',
+                shadowOffsetY: 5,
+                color: new echarts.graphic.RadialGradient(0.4, 0.3, 0.5, [{
+                    offset: 0,
+                    color: 'rgb(246, 114, 128)'
+                }, {
+                    offset: 1,
+                    color: 'rgb(246, 114, 128)'
+                }])
+            }
+        }, {
+            name: 'Survival',
+            data: data[1],
+            type: 'scatter',
+            label: { show: true, formatter: 'Survival' },
+            symbolSize: function (data) {
+                return data[2];
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                    formatter: function (param) {
+                        return param.data[3];
+                    },
+                    position: 'inside'
+                }
+            },
+            itemStyle: {
+                shadowBlur: 10,
+                shadowColor: 'rgba(25, 100, 150, 0.5)',
+                shadowOffsetY: 5,
+                color: new echarts.graphic.RadialGradient(0.4, 0.3, 0.5, [{
+                    offset: 0,
+                    color: 'rgb(108, 91, 123)'
+                }, {
+                    offset: 1,
+                    color: 'rgb(108, 91, 123)'
+                }])
+            }
+        }, {
+            name: 'Soul',
+            data: data[2],
+            type: 'scatter',
+            label: { show: true, formatter: 'Soul' },
+            symbolSize: function (data) {
+                return data[2];
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                    formatter: function (param) {
+                        return param.data[3];
+                    },
+                    position: 'inside'
+                }
+            },
+            itemStyle: {
+                shadowBlur: 10,
+                shadowColor: 'rgba(120, 36, 50, 0.5)',
+                shadowOffsetY: 5,
+                color: new echarts.graphic.RadialGradient(0.4, 0.3, 0.5, [{
+                    offset: 0,
+                    color: 'rgb(192, 108, 132)'
+                }, {
+                    offset: 1,
+                    color: 'rgb(192, 108, 132)'
+                }])
+            }
+        }, {
+            name: 'Mind',
+            data: data[3],
+            type: 'scatter',
+            label: { show: true, formatter: 'Mind' },
+            symbolSize: function (data) {
+                return data[2];
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                    formatter: function (param) {
+                        return param.data[3];
+                    },
+                    position: 'inside'
+                }
+            },
+            itemStyle: {
+                shadowBlur: 10,
+                shadowColor: 'rgba(25, 100, 150, 0.5)',
+                shadowOffsetY: 5,
+                color: new echarts.graphic.RadialGradient(0.4, 0.3, 0.8, [{
+                    offset: 0,
+                    color: 'rgb(53, 71, 125)'
+                }, {
+                    offset: 1,
+                    color: 'rgb(53, 71, 125)'
+                }])
+            }
+        }
+
+        ]
+    };;
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+    myChart.on('click', function(param) {
+        var url = param.data[5];
+        // console.log(param);
+        window.location.href = url;
+    });
+</script>
+</body>
+
+
+
+<h2 style="text-align: center">Summary</h2>
+<body style="height: 100%; margin: 0">
+<div id="summary" style="height: 700%"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+<script type="text/javascript">
+    var dom = document.getElementById("summary");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    option = {
+        backgroundColor: '#ffffff',
+
+        tooltip: {
+            trigger: 'item',
+            formatter: '{a} <br/>{b} : {c} ({d}%)'
+        },
+
+        visualMap: {
+            show: false,
+            min: 80,
+            max: 600,
+            inRange: {
+                colorLightness: [0, 1]
+            }
+        },
+        series: [
+            {
+                name: 'Output (expected): ',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '50%'],
+                data: [
+                    {value: 450, name: 'Article: Blog', url: 'https://my1219.today/'},
+                    {value: 250, name: 'Video:\nBilibili/Youtube', url: 'https://space.bilibili.com/275812277'},
+                    {value: 300, name: 'Podcasts:\nApple Podcasts/Castro', url: 'https://weijingzhidi.fireside.fm/'}
+                ].sort(function (a, b) { return a.value - b.value; }),
+                roseType: 'radius',
+                label: {
+                    color: '#679b9b'
+                },
+                labelLine: {
+                    lineStyle: {
+                        color: '#679b9b'
+                    },
+                    smooth: 0.2,
+                    length: 10,
+                    length2: 20
+                },
+                itemStyle: {
+                    color: '#679b9b',
+                    shadowBlur: 200,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                },
+
+                animationType: 'scale',
+                animationEasing: 'elasticOut',
+                animationDelay: function (idx) {
+                    return Math.random() * 200;
+                }
+            }
+        ]
+    };;
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+    myChart.on('click', function(param) {
+        var url = param.data.url;
+        // console.log(param);
+        window.location.href = url;
+    });
+</script>
+</body>
+
+
+<h1 style="text-align: center">Reference</h1>
+<ul>icon: <a href="https://goodstuffnononsense.com/" target="_blank" rel="noopener">Good Stuff No Nonsense</a></ul>
+<ul>visualization: <a href="https://echarts.apache.org/en/index.html" target="_blank" rel="noopener">Apache ECharts</a></ul>
+<ul>inspiration: <a href="https://mp.weixin.qq.com/s/BIbvJXp_Wfup-yn4aPcz5Q" target="_blank" rel="noopener">我的宝藏非典型镜面反射</a></ul>
+</body>
+</html>
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">About me</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">2.</span> <span class="nav-text">Information Pipeline</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.1.</span> <span class="nav-text">Raw Data</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.2.</span> <span class="nav-text">Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.3.</span> <span class="nav-text">Summary</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">3.</span> <span class="nav-text">Reference</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Ms Pauli"
+      src="/images/pauli.JPG">
+  <p class="site-author-name" itemprop="name">Ms Pauli</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">17</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:my1219share@gmail.com" title="E-Mail → mailto:my1219share@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.weibo.com/p/1005056452818466/" title="Weibo → https:&#x2F;&#x2F;www.weibo.com&#x2F;p&#x2F;1005056452818466&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/mymspauli" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;mymspauli" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.youtube.com/channel/UC0DH1-LADF3sy-zjDJGgwjQ/featured" title="YouTube → https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UC0DH1-LADF3sy-zjDJGgwjQ&#x2F;featured" rel="noopener" target="_blank"><i class="fa fa-fw fa-youtube"></i>YouTube</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/275812277" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;275812277" rel="noopener" target="_blank"><i class="fa fa-fw fa-tv"></i>bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/ms_pauli_22" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;ms_pauli_22" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i>Instagram</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weijingzhidi.fireside.fm/" title="podcast → https:&#x2F;&#x2F;weijingzhidi.fireside.fm&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-podcast"></i>podcast</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i>RSS</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ms Pauli</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script color='0,0,255' opacity='0.3' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest-nomobile.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.getAttribute('pjax') !== null) {
+      script.setAttribute('pjax', '');
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+    </div>
+</body>
+</html>

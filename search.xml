@@ -84,10 +84,10 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>Apple</tag>
-        <tag>Tools</tag>
         <tag>Review</tag>
+        <tag>Tools</tag>
         <tag>Kindle</tag>
+        <tag>Apple</tag>
         <tag>iBook</tag>
         <tag>Marginnote</tag>
       </tags>
@@ -143,10 +143,10 @@
         <category>Medium</category>
       </categories>
       <tags>
-        <tag>Review</tag>
         <tag>Medium</tag>
         <tag>Comics</tag>
         <tag>Fullmetal Alchemist</tag>
+        <tag>Review</tag>
       </tags>
   </entry>
   <entry>
@@ -185,9 +185,9 @@
         <category>Tools</category>
       </categories>
       <tags>
+        <tag>Tools</tag>
         <tag>Apple</tag>
         <tag>iMessage</tag>
-        <tag>Tools</tag>
       </tags>
   </entry>
   <entry>
@@ -431,12 +431,12 @@
         <category>Books</category>
       </categories>
       <tags>
+        <tag>Review</tag>
         <tag>ReadingNote</tag>
         <tag>History</tag>
         <tag>Food Culture</tag>
         <tag>Anthropology</tag>
         <tag>Sociology</tag>
-        <tag>Review</tag>
       </tags>
   </entry>
 </search>

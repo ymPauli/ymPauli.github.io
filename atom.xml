@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ALL UNDISCOVERED</title>
-  <icon>https://my1219.today/pauli.JPG</icon>
+  <icon>https://my1219.today/telescope.png</icon>
   <subtitle>I am here, somewhere</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -44,13 +44,13 @@
       <category term="Tools" scheme="https://my1219.today/categories/Tools/"/>
     
     
-      <category term="Apple" scheme="https://my1219.today/tags/Apple/"/>
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
       <category term="Tools" scheme="https://my1219.today/tags/Tools/"/>
     
-      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
-    
       <category term="Kindle" scheme="https://my1219.today/tags/Kindle/"/>
+    
+      <category term="Apple" scheme="https://my1219.today/tags/Apple/"/>
     
       <category term="iBook" scheme="https://my1219.today/tags/iBook/"/>
     
@@ -85,13 +85,13 @@
       <category term="Medium" scheme="https://my1219.today/categories/Medium/"/>
     
     
-      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
-    
       <category term="Medium" scheme="https://my1219.today/tags/Medium/"/>
     
       <category term="Comics" scheme="https://my1219.today/tags/Comics/"/>
     
       <category term="Fullmetal Alchemist" scheme="https://my1219.today/tags/Fullmetal-Alchemist/"/>
+    
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
   </entry>
   
@@ -140,11 +140,11 @@
       <category term="Tools" scheme="https://my1219.today/categories/Tools/"/>
     
     
+      <category term="Tools" scheme="https://my1219.today/tags/Tools/"/>
+    
       <category term="Apple" scheme="https://my1219.today/tags/Apple/"/>
     
       <category term="iMessage" scheme="https://my1219.today/tags/iMessage/"/>
-    
-      <category term="Tools" scheme="https://my1219.today/tags/Tools/"/>
     
   </entry>
   
@@ -248,6 +248,8 @@
       <category term="Books" scheme="https://my1219.today/categories/Books/"/>
     
     
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
+    
       <category term="ReadingNote" scheme="https://my1219.today/tags/ReadingNote/"/>
     
       <category term="History" scheme="https://my1219.today/tags/History/"/>
@@ -257,8 +259,6 @@
       <category term="Anthropology" scheme="https://my1219.today/tags/Anthropology/"/>
     
       <category term="Sociology" scheme="https://my1219.today/tags/Sociology/"/>
-    
-      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
   </entry>
   
