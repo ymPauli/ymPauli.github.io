@@ -28,8 +28,8 @@
 <meta property="og:site_name" content="ALL UNDISCOVERED">
 <meta property="og:description" content="Ms Pauli&#39;s Language System    About me 2013 - 2017: B.Sc., Information and Computing Science, Mathematics 2017 - 2018: M.Sc, Computer Science Since 04&#x2F;01&#x2F;2019: Software Engineer  Informati">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-04-05T07:01:31.225Z">
-<meta property="article:modified_time" content="2020-04-05T07:01:31.225Z">
+<meta property="article:published_time" content="2020-04-06T03:34:14.862Z">
+<meta property="article:modified_time" content="2020-04-06T03:34:14.862Z">
 <meta property="article:author" content="Ms Pauli">
 <meta name="twitter:card" content="summary">
 
@@ -223,6 +223,7 @@
 <ul>Since 04/01/2019: Software Engineer</ul>
 
 <h1 style="text-align: center">Information Pipeline</h1>
+
 <h2 style="text-align: center">Raw Data</h2>
 <body style="height: 100%; margin: 0">
 <div id="rawdata" style="height: 350%"></div>
@@ -1101,11 +1102,13 @@
     }
 </script>
 </body>
-
+<body>
+理想中的raw data部分是希望包含我所有的信息输入以及及时的信息输出, 并以句子为单位进行聚类, 生成我的私人Language Galaxy. 不过我可能需要6000个小时来完成这件事(笑), 所以退而求其次的只提取了过去一些文章的key word生成了一个简单的网络.
+</body>
 
 <h2 style="text-align: center">Analysis</h2>
 <body style="height: 100%; margin: 0">
-<div id="analysis" style="height: 800%"></div>
+<div id="analysis" style="height: 750%"></div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
@@ -1116,9 +1119,17 @@
     var app = {};
     option = null;
     var data = [
-        [[-7,10,200,'Life','Life', 'https://my1219.today/life/']],[[10,10,300,'Survival','Survival', 'https://my1219.today/survival/']],
-        [[-10,-15,300,'Soul','Soul', 'https://my1219.today/soul/']],[[10,-10,350,'Mind','Mind', 'https://my1219.today/mind/']]
+        [[-7,10,200,'Life','主题为活下去之后\n如何花式快乐生活', 'https://my1219.today/life/']],
+        [[10,10,300,'Survival','以职业技能与生存基本技能\n为主, 包含我的工作, career,\nfinance等相关内容', 'https://my1219.today/survival/']],
+        [[-10,-15,300,'Soul','我个人是个十分注重体验的人,\n渴望体验各式各样的微妙的情绪\n以及不同情绪之间的过渡与变化.\n于是对我来说, 故事等艺术表达\n都是体验, 训练体验的能力\n以及积累情绪素材的重要媒介', 'https://my1219.today/soul/']],
+        [[10,-10,350,'Mind','一切维护大脑健康与思维运作\n的素材与训练', 'https://my1219.today/mind/']]
     ];
+    var labelTextStyle = {
+            fontSize: 18,
+            fontStyle: "normal",
+            fontWeight:"normal",
+            color: "#f4eeff"
+        },
 
     option = {
         backgroundColor: new echarts.graphic.RadialGradient(0, 1, 1, [{
@@ -1132,7 +1143,10 @@
         xAxis: {
             min: -30,
             max: 30,
-            name: "(Practicality(Thinking) Value - Aesthetics(Feeling) Value)",
+            nameTextStyle: {
+                fontSize: 18
+            },
+            name: "[Practicality(Thinking) Value - Aesthetics(Feeling) Value]",
             nameRotate: 270,
             splitLine: {
                 show:false
@@ -1147,6 +1161,9 @@
         yAxis: {
             min: -30,
             max: 30,
+            nameTextStyle: {
+                fontSize: 18
+            },
             name: "(Practicing Time - Learning Time)",
             splitLine: {
                 show: false
@@ -1163,7 +1180,7 @@
             name: 'Life',
             data: data[0],
             type: 'scatter',
-            label: { show: true, formatter: 'Life' },
+            label: { show: true, formatter: 'Life', textStyle: labelTextStyle},
             symbolSize: function (data) {
                 return data[2];
             },
@@ -1171,7 +1188,7 @@
                 label: {
                     show: true,
                     formatter: function (param) {
-                        return param.data[3];
+                        return param.data[4];
                     },
                     position: 'inside'
                 }
@@ -1192,7 +1209,7 @@
             name: 'Survival',
             data: data[1],
             type: 'scatter',
-            label: { show: true, formatter: 'Survival' },
+            label: { show: true, formatter: 'Survival', textStyle: labelTextStyle},
             symbolSize: function (data) {
                 return data[2];
             },
@@ -1200,9 +1217,9 @@
                 label: {
                     show: true,
                     formatter: function (param) {
-                        return param.data[3];
+                        return param.data[4];
                     },
-                    position: 'inside'
+                    position: 'inside',
                 }
             },
             itemStyle: {
@@ -1221,7 +1238,7 @@
             name: 'Soul',
             data: data[2],
             type: 'scatter',
-            label: { show: true, formatter: 'Soul' },
+            label: { show: true, formatter: 'Soul', textStyle: labelTextStyle},
             symbolSize: function (data) {
                 return data[2];
             },
@@ -1229,7 +1246,7 @@
                 label: {
                     show: true,
                     formatter: function (param) {
-                        return param.data[3];
+                        return param.data[4];
                     },
                     position: 'inside'
                 }
@@ -1250,7 +1267,7 @@
             name: 'Mind',
             data: data[3],
             type: 'scatter',
-            label: { show: true, formatter: 'Mind' },
+            label: { show: true, formatter: 'Mind', textStyle: labelTextStyle},
             symbolSize: function (data) {
                 return data[2];
             },
@@ -1258,7 +1275,7 @@
                 label: {
                     show: true,
                     formatter: function (param) {
-                        return param.data[3];
+                        return param.data[4];
                     },
                     position: 'inside'
                 }
@@ -1289,8 +1306,18 @@
     });
 </script>
 </body>
+<body>
+四象限图来梳理信息结构是受到<a href="https://mp.weixin.qq.com/s/BIbvJXp_Wfup-yn4aPcz5Q" target="_blank" rel="noopener">我的非典型镜面反射少女</a>的启发,
+她所设计的四象限原始结构是以<a href="https://book.douban.com/subject/25766592/" target="_blank" rel="noopener">sprit(指向意志和欲望)与mind(指向理智与思想)</a>作为横轴,
+knowledge与skills作为纵轴, 划分为marketable skills, practice for beauty, feed my soul, 以及systemize my mind四个象限.
 
+我私人化的信息象限图基本沿用了她的设计, 只是在横轴与纵轴的设计上, 选择了更容易量化的词语, value与time.
+当然这只是为了表述与理解上的方便, 这里的表达式只是为了通过衡量各类信息中几种feature的程度, 来对信息做一个简单的分类.
+这样也可以避免产生有关对立化坐标轴两端词汇的误解, 实际上这些内容是无法被绝对量化的.
 
+取决于信息输入类型, 思维模式, 表述习惯, 每个人的信息结构都多少会有些差异, 大家尽可以私人化处理自己的information system.
+
+</body>
 
 <h2 style="text-align: center">Summary</h2>
 <body style="height: 100%; margin: 0">
@@ -1367,12 +1394,71 @@
     });
 </script>
 </body>
-
+<body>
+未来的信息整理与输出, 会以文章为主, 播客与视频作为辅助.
+</body>
 
 <h1 style="text-align: center">Reference</h1>
+<body>
 <ul>icon: <a href="https://goodstuffnononsense.com/" target="_blank" rel="noopener">Good Stuff No Nonsense</a></ul>
 <ul>visualization: <a href="https://echarts.apache.org/en/index.html" target="_blank" rel="noopener">Apache ECharts</a></ul>
 <ul>inspiration: <a href="https://mp.weixin.qq.com/s/BIbvJXp_Wfup-yn4aPcz5Q" target="_blank" rel="noopener">我的宝藏非典型镜面反射</a></ul>
+</body>
+
+<h1 style="text-align: center">Track of Language Galaxy</h1>
+<body style="height: 100%; margin: 0">
+<div id="container" style="height: 800%"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+<script type="text/javascript">
+    var dom = document.getElementById("container");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    option = {
+        angleAxis: {
+        },
+        radiusAxis: {
+            type: 'category',
+            data: ['Data', 'Model', 'Visualization'],
+            axisTick : {
+                show: false
+            },
+            axisLabel: {
+                show: true,
+            },
+            z: 3
+        },
+        polar: {
+        },
+        series: [{
+            type: 'bar',
+            data: [1, 0, 1],
+            coordinateSystem: 'polar',
+            name: 'Finished',
+            stack: 'Finished',
+            color: '#34699a'
+        }, {
+            type: 'bar',
+            data: [999, 3000, 1999],
+            coordinateSystem: 'polar',
+            name: 'Planned',
+            stack: 'Planned',
+            color:'#dfe2e2'
+        }],
+        legend: {
+            show: true,
+            data: ['Finished', 'Planned']
+        }
+    };
+    ;
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+</script>
+</body>
 </body>
 </html>
       </div>
@@ -1436,7 +1522,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">About me</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">2.</span> <span class="nav-text">Information Pipeline</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.1.</span> <span class="nav-text">Raw Data</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.2.</span> <span class="nav-text">Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.3.</span> <span class="nav-text">Summary</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">3.</span> <span class="nav-text">Reference</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">About me</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">2.</span> <span class="nav-text">Information Pipeline</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.1.</span> <span class="nav-text">Raw Data</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.2.</span> <span class="nav-text">Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.3.</span> <span class="nav-text">Summary</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">3.</span> <span class="nav-text">Reference</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">4.</span> <span class="nav-text">Track of Language Galaxy</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
