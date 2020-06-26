@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://my1219.today/"/>
-  <updated>2020-05-28T07:55:39.788Z</updated>
+  <updated>2020-06-26T07:07:50.322Z</updated>
   <id>https://my1219.today/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WWDC 2020 Recap -- Personal Highlights</title>
+    <link href="https://my1219.today/2020/06/25/wwdc2020/"/>
+    <id>https://my1219.today/2020/06/25/wwdc2020/</id>
+    <published>2020-06-26T06:43:22.000Z</published>
+    <updated>2020-06-26T07:07:50.322Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I have been super excited about WWDC this year. I installed the iOS/iPadOS/macOS developer beta this Monday (and watchOS yesterday) and have kept playing with it since then. They are absolutely the best “toys” I have this year. It’s nothing astonishing, but it does have numerous great updates that could make our life (at least mine) much easier and smoother. It’s really difficult for me to rank them since there are so many amazing things. So I just “classified” them into different levels based on my preferences.&lt;/p&gt;
+&lt;h2 id=&quot;Over-the-top&quot;&gt;&lt;a href=&quot;#Over-the-top&quot; class=&quot;headerlink&quot; title=&quot;Over the top&quot;&gt;&lt;/a&gt;Over the top&lt;/h2&gt;&lt;h3 id=&quot;All-about-privacy&quot;&gt;&lt;a href=&quot;#All-about-privacy&quot; class=&quot;headerlink&quot; title=&quot;All about privacy&quot;&gt;&lt;/a&gt;All about privacy&lt;/h3&gt;&lt;p&gt;I do admire all the efforts Apple has made in the field of privacy. We have brought more and more concerns about the use and value of the data of personal information these years and kept seeking the solutions to it. This year’s WWDC has strengthened privacy a lot, like in Map and Translate, and also proposed several features to deal with our data.&lt;br&gt;&lt;img src=&quot;23.png&quot; alt&gt;&lt;br&gt;The above picture shows the four principles Apple has with privacy.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Location data: instead of a precise location, you could choose to just share the approximate location with apps. &lt;/li&gt;
+&lt;li&gt;Recording indicator: there will be a yellow indicator in the status bar while you’re recording via mic or camera.&lt;br&gt;&lt;img src=&quot;24.png&quot; alt&gt;&lt;/li&gt;
+&lt;li&gt;Tracking control: there will be a policy to require the apps to ask for permission before tracking.&lt;br&gt;&lt;img src=&quot;25.png&quot; alt&gt;&lt;/li&gt;
+&lt;li&gt;App privacy: Apple will require the apps to provide information about data collected and shared with other companies on product pages in the App Store.&lt;br&gt;&lt;img src=&quot;26.png&quot; alt&gt;&lt;/li&gt;
+&lt;li&gt;Safari: it will show the information about how the website is tracking you.&lt;br&gt;&lt;img src=&quot;27.png&quot; alt&gt;&lt;br&gt;&lt;img src=&quot;28.png&quot; alt&gt;&lt;/li&gt;
+&lt;li&gt;Clipboard: it will show the notification, “copy from XXXX”, whenever the app you’re using is trying to read your clipboard. It’s brought us some information interesting that some apps, like iMessage and Twitter, will only read the clipboard when you want to paste something, while some will copy from the clipboard as soon as you open it, like Starbuck (lol) and Weibo, while some will do it every 1-3 keystrokes, like TikTok lol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Finally-have-it&quot;&gt;&lt;a href=&quot;#Finally-have-it&quot; class=&quot;headerlink&quot; title=&quot;Finally have it!&quot;&gt;&lt;/a&gt;Finally have it!&lt;/h2&gt;&lt;h3 id=&quot;App-Library&quot;&gt;&lt;a href=&quot;#App-Library&quot; class=&quot;headerlink&quot; title=&quot;App Library&quot;&gt;&lt;/a&gt;App Library&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;IMG_6179.PNG&quot; alt&gt;&lt;br&gt;I have tons of apps on my iPhone (shown in the above picture, which is just a part of one category) which makes it difficult for me to “find” the one I need. So I always use search or Siri (lol) to open the app. And now we finally have the library for apps.&lt;/p&gt;
+&lt;p&gt;The first thing I like about it is that we could remove the apps from the Home Screen and add it to the library, so we could just keep the ones used most frequently on the screen. You could simply get there by swiping the last Home Screen from right to left. And the first look of the library is a navigation view which has categorized all your apps automatically.&lt;br&gt;&lt;img src=&quot;IMG_6178.PNG&quot; alt&gt;&lt;br&gt;It has the “Suggestions” (which you are likely to need next) and “Recently Added” on the top. And each category box has three apps in the larger icon which could be launched directly with a tap. They are the apps used most frequently under that category. And if you tap on the area with the four smaller icons, it will open the whole category and you could see all your apps under it.&lt;br&gt;&lt;img src=&quot;IMG_6183.PNG&quot; alt&gt;&lt;br&gt;If you swipe down or just tap on the search bar, you could see the list of your apps in alphabetical order. What is sweet is that it also sort the apps with the name in Chinese based on pinyin.&lt;br&gt;&lt;img src=&quot;IMG_6188.JPG&quot; alt&gt;&lt;br&gt;And you could also choose to hide a whole page of the Home Screen: go to the view of “edit Home Screen” -&amp;gt; tap the bottom of the page -&amp;gt; select or unselect the page.&lt;/p&gt;
+&lt;h3 id=&quot;Widget&quot;&gt;&lt;a href=&quot;#Widget&quot; class=&quot;headerlink&quot; title=&quot;Widget&quot;&gt;&lt;/a&gt;Widget&lt;/h3&gt;
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://my1219.today/categories/Tools/"/>
+    
+    
+      <category term="Tools" scheme="https://my1219.today/tags/Tools/"/>
+    
+      <category term="Apple" scheme="https://my1219.today/tags/Apple/"/>
+    
+      <category term="iMessage" scheme="https://my1219.today/tags/iMessage/"/>
+    
+      <category term="Safari" scheme="https://my1219.today/tags/Safari/"/>
+    
+      <category term="Privacy" scheme="https://my1219.today/tags/Privacy/"/>
+    
+  </entry>
   
   <entry>
     <title>Magi -- The Labyrinth of Magic(魔笛) 阅读体验1.0</title>
