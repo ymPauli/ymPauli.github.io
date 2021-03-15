@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://my1219.today/"/>
-  <updated>2020-06-26T07:24:53.845Z</updated>
+  <updated>2021-03-15T04:41:07.356Z</updated>
   <id>https://my1219.today/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>情绪的锚点——对近期的过度情绪化的解释的尝试</title>
+    <link href="https://my1219.today/2021/03/14/theRootOfEmotions/"/>
+    <id>https://my1219.today/2021/03/14/theRootOfEmotions/</id>
+    <published>2021-03-15T04:15:30.000Z</published>
+    <updated>2021-03-15T04:41:07.356Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;所有的的情绪都不是凭空产生的，也不会没有依凭的持续。那些爱与憎恶，一出现就会陷入泥沼，只有被同等或者更加强烈的情绪的实体或媒介钩扯，才有可能流动起来。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Introspection" scheme="https://my1219.today/categories/Introspection/"/>
+    
+    
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
+    
+      <category term="Introspection" scheme="https://my1219.today/tags/Introspection/"/>
+    
+      <category term="Diary" scheme="https://my1219.today/tags/Diary/"/>
+    
+      <category term="Nature" scheme="https://my1219.today/tags/Nature/"/>
+    
+      <category term="Emotion" scheme="https://my1219.today/tags/Emotion/"/>
+    
+  </entry>
   
   <entry>
     <title>WWDC 2020 Recap -- Personal Highlights</title>
