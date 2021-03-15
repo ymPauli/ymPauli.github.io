@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://my1219.today/"/>
-  <updated>2021-03-15T04:41:07.356Z</updated>
+  <updated>2021-03-15T04:58:42.009Z</updated>
   <id>https://my1219.today/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://my1219.today/2021/03/14/theRootOfEmotions/"/>
     <id>https://my1219.today/2021/03/14/theRootOfEmotions/</id>
     <published>2021-03-15T04:15:30.000Z</published>
-    <updated>2021-03-15T04:41:07.356Z</updated>
+    <updated>2021-03-15T04:58:42.009Z</updated>
     
     <summary type="html">
     
@@ -92,11 +92,11 @@
       <category term="Medium" scheme="https://my1219.today/categories/Medium/"/>
     
     
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
+    
       <category term="Medium" scheme="https://my1219.today/tags/Medium/"/>
     
       <category term="Comics" scheme="https://my1219.today/tags/Comics/"/>
-    
-      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
       <category term="Magi" scheme="https://my1219.today/tags/Magi/"/>
     
@@ -126,9 +126,9 @@
       <category term="Tools" scheme="https://my1219.today/categories/Tools/"/>
     
     
-      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
-    
       <category term="Tools" scheme="https://my1219.today/tags/Tools/"/>
+    
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
       <category term="Kindle" scheme="https://my1219.today/tags/Kindle/"/>
     
@@ -166,13 +166,13 @@
       <category term="Medium" scheme="https://my1219.today/categories/Medium/"/>
     
     
+      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
+    
       <category term="Medium" scheme="https://my1219.today/tags/Medium/"/>
     
       <category term="Comics" scheme="https://my1219.today/tags/Comics/"/>
     
       <category term="Fullmetal Alchemist" scheme="https://my1219.today/tags/Fullmetal-Alchemist/"/>
-    
-      <category term="Review" scheme="https://my1219.today/tags/Review/"/>
     
   </entry>
   
